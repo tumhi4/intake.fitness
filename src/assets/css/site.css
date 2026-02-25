@@ -1,0 +1,12 @@
+body {
+  font-family: Inter, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}

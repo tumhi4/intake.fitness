@@ -1,0 +1,7 @@
+{
+  "site": {
+    "name": "intake.fitness",
+    "domain": "https://intake.fitness",
+    "default_units": "us"
+  }
+}
