@@ -2,6 +2,18 @@
   "site": {
     "name": "intake.fitness",
     "domain": "https://intake.fitness",
-    "default_units": "us"
+    "language": "en",
+    "default_units": "us",
+    "units_supported": ["us", "metric"],
+    "share": {
+      "mode": "querystring",
+      "param_share_flag": "share",
+      "param_share_flag_value": "1"
+    }
+  },
+  "seo": {
+    "title_suffix": " | intake.fitness",
+    "default_meta_description": "Accurate nutrition and body calculators with clear, shareable results.",
+    "default_og_image": "/assets/img/og/default.png"
   }
 }
