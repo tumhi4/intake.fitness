@@ -1,6 +1,18 @@
-:root {
-  --color-primary: #1f4fff;
-  --color-bg: #ffffff;
-  --color-text: #111111;
-  --color-muted: #666666;
+:root{
+  --bg:#0b1020;
+  --panel:#0f1730;
+  --card:#111c3a;
+  --text:#eaf0ff;
+  --muted:rgba(234,240,255,.7);
+
+  --brand:#5b7cff;
+  --brand2:#7c5bff;
+  --good:#46d39a;
+  --warn:#ffcc66;
+
+  --border:rgba(234,240,255,.12);
+  --shadow: 0 10px 30px rgba(0,0,0,.35);
+
+  --radius:16px;
+  --radius2:22px;
 }
