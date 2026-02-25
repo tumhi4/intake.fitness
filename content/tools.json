@@ -1,1 +1,37 @@
-[]
+[
+  {
+    "id": "tdee",
+    "type": "tool",
+    "name": "TDEE Calculator",
+    "slug": "/tdee-calculator/",
+    "template": "tool.html",
+    "cluster": "calorie_intake",
+    "pillar_id": "calorie-intake",
+    "seo": {
+      "title": "TDEE Calculator (2026) – Maintenance Calories",
+      "description": "Calculate your TDEE (maintenance calories), plus cutting and bulking targets. Includes a shareable result card and PNG download."
+    },
+    "ui": {
+      "hero_lead": "Get your maintenance calories, then see cut and bulk targets. Fast, clean, shareable.",
+      "result_card": {
+        "headline_label": "Your TDEE"
+      }
+    },
+    "script": "/assets/js/tools/tdee.js",
+    "related": {
+      "tools": [],
+      "pillars": [],
+      "guides": []
+    },
+    "faq": [
+      {
+        "q": "What is TDEE?",
+        "a": "TDEE is your total daily energy expenditure—roughly the calories you burn per day including activity."
+      },
+      {
+        "q": "How accurate is a TDEE calculator?",
+        "a": "It’s an estimate. Use it as a starting point and adjust based on 2–3 weeks of weight trend."
+      }
+    ]
+  }
+]
